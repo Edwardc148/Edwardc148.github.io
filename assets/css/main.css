@@ -3089,7 +3089,7 @@
 			display: -ms-flex;
 			display: flex;
 			-moz-flex-direction: column;
-			/* -webkit-flex-direction: column; */
+			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			/* flex-direction: column; */
 			-moz-justify-content: center;
@@ -4205,4 +4205,8 @@
 
 .bs-be {
 	padding-bottom: 15px;
+}
+
+.jukebox {
+	
 }
