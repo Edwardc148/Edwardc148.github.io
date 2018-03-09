@@ -3083,7 +3083,7 @@
 			}
 
 		.spotlights > section > .content {
-			padding: 1.5em 1em 2em 0em ;
+			padding: 1.5em 1em 2em 1em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3130,12 +3130,12 @@
 			-ms-transform: translateX(-1em);
 			transform: translateX(-1em);
 			opacity: 0;
+
 		}
 
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				/* padding: 4em 4em 2em 4em ; */
 				padding-left: 40px;
 				padding-right: 30px;
 			}
@@ -3973,67 +3973,17 @@
 
 .j-text1 {
 	padding-top: 10px;
-}
-
-.j-text2 {
-	padding-top: 10px;
-  color: black;
-	font-size: 14px;
-}
-
-.j-text3 {
-	font-size: 14px;
-  color: black;
-}
-
-.j-text4 {
-	font-size: 14px;
-  color: black;
-}
-
-.j-text5 {
-	font-size: 14px;
-  color: black;
+	padding-bottom: 10px;
 }
 
 .b-text1 {
 	padding-top: 10px;
-}
-
-.b-text2 {
-	padding-top: 10px;
-  color: black;
-	font-size: 14px;
-}
-
-.b-text3 {
-  color: black;
-	font-size: 14px;
-}
-
-.b-text4 {
-  color: black;
-	font-size: 14px;
+	padding-bottom: 10px;
 }
 
 .r-text1 {
   padding-top: 10px;
-}
-
-.r-text2 {
-	font-size: 14px;
-  color: black;
-	padding-top: 10px;
-}
-
-.r-text3 {
-	font-size: 14px;
-  color: black;
-}
-
-.r-text4 {
-	font-size: 14px;
-  color: black;
+	padding-bottom: 10px;
 }
 
 .work {
@@ -4192,7 +4142,7 @@
 }
 
 .content-edu {
-	padding: 0em 0em 0em 0em;
+	padding: 0em 1em 0em 1em;
 }
 
 .amr-date {
@@ -4207,6 +4157,94 @@
 	padding-bottom: 15px;
 }
 
-.jukebox {
-	
+.jukebox:hover {
+	z-index: 3;
+	background: lightgray;
+	opacity: 0.8;
+}
+
+span {
+	font-size: 18px;
+}
+
+.jukebox-pic {
+	width: 100%;
+	height: 250px;
+}
+
+.bubble-pic {
+	width: 100%;
+	height: 250px;
+}
+
+.recruited-pic {
+	width: 100%;
+	height: 250px;
+}
+
+.inner-edu {
+	/* padding: 0em 1em 0em 1em; */
+}
+
+.proj {
+	display: block;
+	background: #495263;
+	z-index: 0;
+}
+
+.pic-view {
+	display: none;
+	color: rgba(255,255,255,0.5);
+	border: 1px solid white;
+	border-radius: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	padding: 5px 10px;
+	text-decoration: none;
+	background: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.view-proj {
+	/* transform: translate(170%, 45%); */
+	display: none;
+	background: white;
+	color: white;
+	opacity: 1;
+	border: 1px solid white;
+	z-index: 30;
+}
+
+.view {
+	transform: translate(145%, 550%);
+  color: black;
+  background: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+	display: inline-block;
+}
+
+.me {
+	color: black;
+}
+
+.ucsd {
+	color: black;
+}
+
+.app-academy {
+	color: black;
+}
+
+.graduate-date {
+	color: black;
+}
+
+.aa-grad-date {
+	color: black;
 }
