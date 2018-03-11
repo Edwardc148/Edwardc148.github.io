@@ -4275,3 +4275,24 @@ span {
 .contact-view {
 	margin-top: 30px;
 }
+
+.icons {
+	display:flex;
+}
+
+.github-li  {
+	display:flex !important;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.linkedin-li {
+	display:flex !important;
+	flex-direction: column;
+	align-items: center;
+}
+
+.resume {
+	font-size: 1.4em;
+}
