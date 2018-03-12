@@ -4294,10 +4294,21 @@ span {
 }
 
 .resume {
-	font-size: 1.4em;
+	font-size: 1em;
 	margin-left:10px;
 }
 
 .fa-paperclip {
 	color: black;
+}
+
+.resume-li {
+	/* display: block; */
+	display:flex !important;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fa-address-card:hover {
+	cursor: pointer;
 }
