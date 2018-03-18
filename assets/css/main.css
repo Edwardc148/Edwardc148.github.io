@@ -4312,3 +4312,11 @@ span {
 .fa-address-card:hover {
 	cursor: pointer;
 }
+
+.learn-more {
+	margin-top: 50px;
+}
+
+.name-intro {
+	margin: 0 0 0 0;
+}
