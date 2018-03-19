@@ -3288,7 +3288,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/* background-color: #5e42a6; */
+			background-color: #593ca5;
 		}
 
 		.wrapper.style1-alt {
@@ -3296,7 +3297,8 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			/* background-color: #5052b5; */
+			background-color: #365fda;
 		}
 
 		.wrapper.style2-alt {
@@ -3304,7 +3306,8 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			/* background-color: #b74e91; */
+			background-color: #ac63bd;
 		}
 
 		.wrapper.style3-alt {
@@ -4153,10 +4156,10 @@
 
 .inner-edu {
 	width: 100%;
+	position: relative;
 }
 
 .bs-be {
-	padding-bottom: 15px;
 	font-style: italic;
 }
 /*
@@ -4251,26 +4254,32 @@ span {
 
 .ucsd {
 	color: black;
+	font-weight: 700;
 }
 
 .app-academy {
 	color: black;
+	font-weight: 700;
 }
 
 .graduate-date {
 	color: black;
+	font-weight: 700;
 }
 
 .aa-grad-date {
 	color: black;
+	font-weight: 700;
 }
 
 .work-name {
 	color: black;
+	font-weight: 700;
 }
 
 .amr-date {
 	color: black;
+	font-weight: 700;
 }
 
 .emt {
@@ -4279,6 +4288,7 @@ span {
 
 .aa-desc {
 	font-style: italic;
+	padding-bottom: 15px;
 }
 
 
@@ -4474,3 +4484,12 @@ span {
 /* .persona {
 	padding-bottom: 40px;
 } */
+
+.edu {
+	padding-bottom: 5px;
+}
+
+.fa-graduation-cap {
+	position: absolute;
+	right: 0;
+}
