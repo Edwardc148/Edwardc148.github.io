@@ -3013,11 +3013,11 @@
 	}
 
 	.about-me-section {
-		height: 50vh;
+		/* height: 50vh; */
 	}
 
 	.education-section {
-		height: 50vh;
+		/* height: 50vh; */
 	}
 
 	.graduate-date {
@@ -3033,7 +3033,7 @@
 	}
 
 	.contact-inner {
-		height: 100vh;
+		/* height: 100vh; */
 	}
 
 	.spotlights > section {
@@ -3149,7 +3149,7 @@
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
+					/* width: 100%; */
 					height: 50vh;
 				}
 
@@ -3174,7 +3174,7 @@
 			}
 
 			.spotlights > section > .content {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 3em 2em ;
 			}
 
 		}
@@ -3953,15 +3953,20 @@
 
 		}
 
-
 .skills-main-div {
-	width: 50em;
-	border-left: 0.5px solid #7d7d7d;
+	/* width: 50em; */
+	/* border-left: 0.5px solid #7d7d7d; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 2em 1em 2em 2em;
 }
+
+.skills-header {
+	text-align: center;
+}
+
+/*
 
 .selfie {
 	background-position-y: top;
@@ -3990,16 +3995,15 @@
 	padding-top: 30px;
 }
 
+
+*/
 .skill-i {
 	font-size: 40px;
-	/* padding-right:10px; */
 	margin-left: auto;
 	margin-right: auto;
-	/* border: 1px solid white; */
 }
 
 .skill-i:hover {
-	/* background:lightgray; */
 }
 
 .redux-logo {
@@ -4155,8 +4159,9 @@
 
 .bs-be {
 	padding-bottom: 15px;
+	font-style: italic;
 }
-
+/*
 .jukebox:hover {
 	z-index: 3;
 	background: lightgray;
@@ -4167,6 +4172,7 @@ span {
 	font-size: 18px;
 }
 
+*/
 .jukebox-pic {
 	width: 100%;
 	height: 250px;
@@ -4182,10 +4188,11 @@ span {
 	height: 250px;
 }
 
+/*
 .inner-edu {
-	/* padding: 0em 1em 0em 1em; */
 }
 
+*/
 .proj {
 	display: block;
 	background: #495263;
@@ -4212,7 +4219,6 @@ span {
 }
 
 .view-proj {
-	/* transform: translate(170%, 45%); */
 	display: none;
 	background: white;
 	color: white;
@@ -4221,18 +4227,14 @@ span {
 	z-index: 30;
 }
 
+
 .view {
-	/* transform: translate(145%, 550%); */
-	/* transform: translate(200%, 500%); */
   color: black;
   background: white;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
-	/* display: inline-block; */
 	display: flex;
 	justify-content: center;
-/* align-content: center; */
-/* align-items: center; */
 	vertical-align: middle;
 	transform: translate(0%, 500%);
 	width: 200px;
@@ -4243,6 +4245,7 @@ span {
 .view:hover {
 	background:gray;
 }
+
 
 .me {
 	color: black;
@@ -4272,6 +4275,15 @@ span {
 	color: black;
 }
 
+.emt {
+	font-style: italic;
+}
+
+.aa-desc {
+	font-style: italic;
+}
+/*
+
 .contact-view {
 	margin-top: 30px;
 }
@@ -4279,6 +4291,7 @@ span {
 .icons {
 	display:flex;
 }
+
 
 .github-li  {
 	display:flex !important;
@@ -4303,7 +4316,6 @@ span {
 }
 
 .resume-li {
-	/* display: block; */
 	display:flex !important;
 	flex-direction: column;
 	align-items: center;
@@ -4313,10 +4325,32 @@ span {
 	cursor: pointer;
 }
 
+
 .learn-more {
 	margin-top: 50px;
 }
 
 .name-intro {
 	margin: 0 0 0 0;
+}
+
+#selfie {
+	height: 100%;
+} */
+
+@media screen and (max-width: 736px) {
+	.spotlights > section > .content > .inner-edu {
+		display: flex;
+	  flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 736px) {
+
+	.spotlights > section > .skills-main-div {
+		width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
 }
