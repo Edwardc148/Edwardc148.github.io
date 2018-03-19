@@ -3149,7 +3149,7 @@
 			}
 
 				.spotlights > section > .image {
-					/* width: 100%; */
+					width: 100%;
 					height: 50vh;
 				}
 
@@ -3971,7 +3971,7 @@
 .selfie {
 	background-position-y: top;
 }
-
+*/
 .project-intro {
 	padding-bottom: 20px;
 }
@@ -3995,8 +3995,6 @@
 	padding-top: 30px;
 }
 
-
-*/
 .skill-i {
 	font-size: 40px;
 	margin-left: auto;
@@ -4282,11 +4280,13 @@ span {
 .aa-desc {
 	font-style: italic;
 }
-/*
+
 
 .contact-view {
 	margin-top: 30px;
 }
+
+/*
 
 .icons {
 	display:flex;
@@ -4325,11 +4325,11 @@ span {
 	cursor: pointer;
 }
 
-
-.learn-more {
-	margin-top: 50px;
+*/
+#for-mobile {
+	margin-top: 50px !important;
 }
-
+/*
 .name-intro {
 	margin: 0 0 0 0;
 }
@@ -4348,9 +4348,109 @@ span {
 @media screen and (min-width: 736px) {
 
 	.spotlights > section > .skills-main-div {
-		width: 600px;
+		width: 800px;
     margin-left: auto;
     margin-right: auto;
+		padding: 2em 0em 5em 2em;
+	}
+
+	.spotlights > section > .skills-main-div > .skills-inner >
+	.skill-list > .icon-wrapper > i {
+		font-size: 60px;
+	}
+
+	.spotlights > section > .skills-main-div > .skills-inner >
+	.skill-list > .icon-wrapper {
+		margin-right: 50px;
+	}
+
+	.icon-javascript {
+		margin-right: 3%;
+	}
+
+	.redux-logo {
+		width: 80px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: 6%;
+    margin-top: 24%;
+	}
+
+	.redux-span {
+		margin-top: 20px;
+	}
+
+	.icon-ruby {
+		margin-right: 5%;
+	}
+
+	.icon-nodejs {
+		margin-right: -0%;
+	}
+
+	.icon-ruby-on-rails-alt {
+		margin-right: 0%;
+	}
+}
+
+@media screen and (min-width: 980px) {
+
+	.spotlights > section > .skills-main-div {
+		width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+		padding: 2em 0em 5em 2em;
+	}
+
+	.spotlights > section > .skills-main-div > .skills-inner >
+	.skill-list > .icon-wrapper > i {
+		font-size: 60px;
+	}
+
+	.spotlights > section > .skills-main-div > .skills-inner >
+	.skill-list > .icon-wrapper {
+		margin-right: 40px;
+	}
+
+	.spotlights > section > .skills-main-div > .skills-inner >
+	.skill-list {
+		justify-content: center;
+		align-items: center;
+		align-content: center;
 	}
 
 }
+
+@media screen and (max-width: 736px) {
+	.skills-header {
+		font-size: 1.75em;
+	}
+
+	.work {
+		margin-top: 1em;
+	}
+
+	#mob-img {
+		display:none;
+	}
+
+	.fa-diamond {
+		float: right;
+	}
+
+	.fa-lock {
+		float: right;
+	}
+
+	.fa-cog {
+		float: right;
+	}
+}
+
+/* .learn-more {
+	margin-top: 50px !important;
+} */
+
+/* .persona {
+	padding-bottom: 40px;
+} */
