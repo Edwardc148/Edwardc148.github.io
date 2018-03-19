@@ -1,3 +1,3 @@
-# My Personal portfolio
-# Powered by HTML5 Up
-# www.edwardcheng.io
+# My Personal Portfolio #
+# Powered by HTML5 Up #
+# www.edwardcheng.io #
