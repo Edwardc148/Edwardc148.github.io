@@ -7,7 +7,8 @@
 <html>
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115440269-1"></script>
+		<script async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-115440269-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -15,7 +16,6 @@
 
 		  gtag('config', 'UA-115440269-1');
 		</script>
-
 		<title>Edward Cheng</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,185 +29,233 @@
 	<body>
 
 		<!-- Sidebar -->
-			<section id="sidebar">
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#intro">Welcome</a></li>
+						<li><a href="#one">About Me</a></li>
+						<li><a href="#two">Projects</a></li>
+						<li><a href="#three">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Intro -->
+			<section id="intro" class="wrapper style1 fullscreen fade-up">
 				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">About Me</a></li>
-							<li><a href="#two">Projects</a></li>
-							<li><a href="#three">Contact</a></li>
-						</ul>
-					</nav>
+					<h1 class="name-intro">Edward Cheng</h1>
+					<!-- <p>A full stack software developer in the San Francisco Bay Area</p> -->
+					<p class="persona">Software Engineer</p>
+					<ul class="actions">
+						<li><a id="for-mobile" href="#one" class="button scrolly learn-more">Learn
+								more</a></li>
+					</ul>
 				</div>
 			</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<!-- One -->
+			<section id="one" class="wrapper style2 spotlights">
+				<section class="about-me-section">
+					<span id="selfie" href="#" class="image selfie"><img
+							src="images/lkcheng.jpg" alt="" data-position="top top" /></span>
+					<div class="content">
 						<div class="inner">
-							<h1 class="name-intro">Edward Cheng</h1>
-							<!-- <p>A full stack software developer in the San Francisco Bay Area</p> -->
-							<p class="persona">Software Engineer</p>
-							<ul class="actions">
-								<li><a id="for-mobile"href="#one" class="button scrolly learn-more">Learn more</a></li>
-							</ul>
+							<h2>About Me</h2>
+							<p class="me">After graduating as a Bioengineer from the University of
+								California, San Diego, I worked as a first responder. Over the course of
+								three and a half years, I responded to over 2500 medical emergencies. I
+								feel like I have done a lot of great work in the healthcare industry,
+								and at this point in my life, I am ready for a different kind of
+								challenge. In the ever changing software industry, there is always room
+								for massive growth as corporations try to fashion their predictions for
+								what is coming ahead. That is why as my first step into software
+								development, I attended App Academy in San Francisco where I developed
+								my skills as a software engineer with specialties in React, Redux,
+								JavaScript, CSS, and Ruby on Rails in order to become an avid
+								contributor to new and innovative technologies.</p>
 						</div>
-					</section>
+					</div>
+				</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section class="about-me-section">
-							<span id="selfie" href="#" class="image selfie"><img src="images/lkcheng.jpg" alt="" data-position="top top" /></span>
-							<div class="content">
-								<div class="inner">
-									<h2>About Me</h2>
-									<p class="me">After graduating as a Bioengineer from the University of California, San Diego, I worked as a first responder. Over the course of three and a half years, I responded to over 2500 medical emergencies. I feel like I have done a lot of great work in the healthcare industry, and at this point in my life, I am ready for a different kind of challenge. In the ever changing software industry, there is always room for massive growth as corporations try to fashion their predictions for what is coming ahead. That is why as my first step into software development, I attended App Academy in San Francisco where I developed my skills as a software engineer with specialties in React, Redux, JavaScript, CSS, and Ruby on Rails in order to become an avid contributor to new and innovative technologies.</p>
-								</div>
+				<section class="education-section">
+					<div class="content content-edu">
+						<div class="inner inner-edu">
+							<span class="icon major fa-graduation-cap"></span>
+							<h2 class="edu">Education</h2>
+							<span class="app-academy">App Academy</span>
+							<span class="aa-grad-date">March 2018</span>
+							<p class="aa-desc">Immersive full stack web development bootcamp with <5%
+									acceptance rate</p>
+							<span class="ucsd">University of California, San Diego</span>
+							<span class="graduate-date">December 2013</span>
+							<p class="bs-be">Bachelor of Science, Bioengineering</p>
+							<h2 class="work">Work Experience</h2>
+							<span class="work-name">Skillz</span>
+							<span class="amr-date">April 2018 - March 2019</span>
+							<p class="emt">Full Stack Engineer - Developer Console</p>
+							<span class="work-name">American Medical Response</span>
+							<span class="amr-date">Feb 2014 - Nov 2017</span>
+							<p class="emt">Emergency Medical Technician</p>
+						</div>
+					</div>
+					<a id="mob-img" href="#" class="image"><img src="images/pic01.jpg" alt=""
+							data-position="top center" /></a>
+				</section>
+				<section>
+					<div class="skills-main-div">
+						<div class="skills-inner">
+							<h2 class="skills-header">Skills</h2>
+							<div class="skill-list">
+								<span class="icon-wrapper"><i class="icon-reactjs skill-i"></i><span
+										class="react-span">React</span></span>
+								<span class="icon-wrapper"><img class="redux-logo"
+										src="./assets/redux-logo.svg" alt=""><span class="redux-span">Redux</span></span>
+								<span class="icon-wrapper"><i class="icon-javascript skill-i"></i><span>JavaScript</span></span>
+								<span class="icon-wrapper"><i class="icon-ruby skill-i"></i><span
+										class="ruby-span">Ruby</span></span>
+								<span class="icon-wrapper"><i class="icon-nodejs skill-i"></i><span
+										class="node-span">Node.js</span></span>
+								<span class="icon-wrapper"><i class="icon-ruby-on-rails-alt skill-i"></i><span
+										class="rails-span">Rails</span></span>
+								<span class="icon-wrapper"><i class="icon-html5-alt skill-i"></i><span
+										class="html-span">HTML5</span></span>
+								<span class="icon-wrapper"><i class="icon-css3 skill-i"></i><span
+										class="css-span">CSS3</span></span>
+								<span class="icon-wrapper"><i class="icon-postgres skill-i"></i><span
+										class="post-span">PostgreSQL</span></span>
+								<span class="icon-wrapper"><i class="icon-git skill-i"></i><span
+										class="git-span">Git</span></span>
+								<span class="icon-wrapper"><i class="icon-heroku skill-i"></i><span
+										class="hero-span">Heroku</span></span>
+								<span class="icon-wrapper"><i class="icon-mongodb skill-i"></i><span
+										class="mongo-span">MongoDB</span></span>
+
 							</div>
+						</div>
+					</div>
+				</section>
+
+			</section>
+
+			<!-- Two -->
+			<section id="two" class="wrapper style3 fade-up">
+				<div class="inner project-inner">
+					<h2>Projects</h2>
+					<p class="project-intro">A complete compilation of projects using a variety
+						of programming skills ranging from React, Redux, JavaScript, CSS, Ruby on
+						Rails, Node, and HTML.</p>
+					<div class="features">
+						<section class="proj">
+							<span class="icon major fa-diamond"></span>
+							<h3>Jukebox</h3>
+							<p class="j-text1">A full stack music web application configured with a
+								Ruby on Rails backend and a React/Redux frontend. Components have fully
+								functional playback with all the data hosted on AWS. Inspired by
+								Pandora!</p>
+							<img class="jukebox-pic" src="./assets/updated_stn_show.png" alt="">
+							<a href="https://jukebox-aa.herokuapp.com/" class="pic-view"
+								target="_blank"><p class="view"><span>View Project</span></p></a>
+							<!-- <span class="view-proj">View Project</span> -->
 						</section>
-
-						<section class="education-section">
-							<div class="content content-edu">
-								<div class="inner inner-edu">
-									<span class="icon major fa-graduation-cap"></span>
-									<h2 class="edu">Education</h2>
-									<span class="app-academy">App Academy</span>
-									<span class="aa-grad-date">March 2018</span>
-									<p class="aa-desc">Immersive full stack web development bootcamp with < 5% acceptance rate</p>
-									<span class="ucsd">University of California, San Diego</span>
-									<span class="graduate-date">December 2013</span>
-									<p class="bs-be">Bachelor of Science, Bioengineering</p>
-									<h2 class="work">Work Experience</h2>
-									<span class="work-name">Skillz</span>
-									<span class="amr-date">April 2018 - Present</span>
-									<p class="emt">Full Stack Engineer - Developer Console</p>
-									<span class="work-name">American Medical Response</span>
-									<span class="amr-date">Feb 2014 - Nov 2017</span>
-									<p class="emt">Emergency Medical Technician</p>
-								</div>
-							</div>
-							<a id="mob-img" href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="top center" /></a>
+						<section class="proj">
+							<span class="icon major fa-lock"></span>
+							<h3>Bubble Stack</h3>
+							<p class="b-text1">Bubble stack is a personalized spin-off of the 1995
+								puzzle video game originally published by Nintendo. This game is
+								designed to demonstrate Object Oriented Programming in Javascript with
+								HTML5, CSS, and Canvas.</p>
+							<img class="bubble-pic" src="./assets/updated2.png" alt="">
+							<a href="https://edwardc148.github.io/Bubble-Stack/" class="pic-view"
+								target="_blank"><span class="view">View Project</span></a>
+						</section>
+						<section class="proj">
+							<span class="icon major fa-cog"></span>
+							<h3>Recruited</h3>
+							<p class="r-text1">A full stack web application that helps simplify the
+								job recruiting process! The matching algorithm lets a recruiter know how
+								qualified a candidate is based on the desired qualifications. It is
+								implemented with the MERN stack. </p>
+							<img class="recruited-pic" src="./assets/update3.png" alt="">
+							<a href="https://recruited.herokuapp.com/" class="pic-view"
+								target="_blank"><span class="view">View Project</span></a>
 						</section>
 						<section>
-							<div class="skills-main-div">
-								<div class="skills-inner">
-									<h2 class="skills-header">Skills</h2>
-									<div class="skill-list">
-										<span class="icon-wrapper"><i class="icon-reactjs skill-i"></i><span class="react-span">React</span></span>
-										<span class="icon-wrapper"><img class="redux-logo" src="./assets/redux-logo.svg" alt=""><span class="redux-span">Redux</span></span>
-										<span class="icon-wrapper"><i class="icon-javascript skill-i"></i><span>JavaScript</span></span>
-										<span class="icon-wrapper"><i class="icon-ruby skill-i"></i><span class="ruby-span">Ruby</span></span>
-										<span class="icon-wrapper"><i class="icon-nodejs skill-i"></i><span class="node-span">Node.js</span></span>
-										<span class="icon-wrapper"><i class="icon-ruby-on-rails-alt skill-i"></i><span class="rails-span">Rails</span></span>
-										<span class="icon-wrapper"><i class="icon-html5-alt skill-i"></i><span class="html-span">HTML5</span></span>
-										<span class="icon-wrapper"><i class="icon-css3 skill-i"></i><span class="css-span">CSS3</span></span>
-										<span class="icon-wrapper"><i class="icon-postgres skill-i"></i><span class="post-span">PostgreSQL</span></span>
-										<span class="icon-wrapper"><i class="icon-git skill-i"></i><span class="git-span">Git</span></span>
-										<span class="icon-wrapper"><i class="icon-heroku skill-i"></i><span class="hero-span">Heroku</span></span>
-										<span class="icon-wrapper"><i class="icon-mongodb skill-i"></i><span class="mongo-span">MongoDB</span></span>
-
-									</div>
-								</div>
-							</div>
 						</section>
+					</div>
+				</div>
+			</section>
 
-					</section>
+			<!-- Three -->
+			<section id="three" class="wrapper style1 fade-up">
+				<div class="inner contact-inner">
+					<h2>Get in touch</h2>
+					<p>Thanks for checking out my personal portfolio. Feel free to reach out to
+						me with any questions regarding my projects. If you have time, please
+						check out my Github and LinkedIn profiles.</p>
+					<div class="split style1 contact-view">
+						<section>
+							<ul class="contact">
+								<li>
+									<h3>Email</h3>
+									<a href="#">edwardcheng148@gmail.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<span>(626) 823-1110</span>
+								</li>
+							</ul>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons">
+								<li class="github-li"><a target="_blank"
+										href="https://github.com/Edwardc148" class="fa-github-square fa-2x"></a>
+									<span class="label">GitHub</span></li>
+								<li class="linkedin-li"><a target="blank"
+										href="https://www.linkedin.com/in/edward-cheng/"
+										class="fa-linkedin-square fa-2x"></a>
+									<span class="label">LinkedIn</span>
+								</li>
+							</ul>
+							<ul class="icons">
+								<li class="resume-li">
+									<a target="_blank"
+										href="https://drive.google.com/file/d/1mFggaBAsgOq3rBKl6hz7i5X8JrCATipt/view?usp=sharing"><i
+											class="fas fa-address-card fa-2x"></i></a>
+									<span class="label">Resume</span>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner project-inner">
-							<h2>Projects</h2>
-							<p class="project-intro">A complete compilation of projects using a variety of programming skills ranging from React, Redux, JavaScript, CSS, Ruby on Rails, Node, and HTML.</p>
-							<div class="features">
-								<section class="proj">
-									<span class="icon major fa-diamond"></span>
-									<h3>Jukebox</h3>
-									<p class="j-text1">A full stack music web application configured with a Ruby on Rails backend and a React/Redux frontend. Components have fully functional playback with all the data hosted on AWS. Inspired by Pandora!</p>
-									<img class="jukebox-pic" src="./assets/updated_stn_show.png" alt="">
-									<a href="https://jukebox-aa.herokuapp.com/" class="pic-view" target="_blank"><p class="view"><span>View Project</span></p></a>
-									<!-- <span class="view-proj">View Project</span> -->
-								</section>
-								<section class="proj">
-									<span class="icon major fa-lock"></span>
-									<h3>Bubble Stack</h3>
-									<p class="b-text1">Bubble stack is a personalized spin-off of the 1995 puzzle video game originally published by Nintendo. This game is designed to demonstrate Object Oriented Programming in Javascript with HTML5, CSS, and Canvas.</p>
-									<img class="bubble-pic" src="./assets/updated2.png" alt="">
-									<a href="https://edwardc148.github.io/Bubble-Stack/" class="pic-view" target="_blank"><span class="view">View Project</span></a>
-								</section>
-								<section class="proj">
-									<span class="icon major fa-cog"></span>
-									<h3>Recruited</h3>
-									<p class="r-text1">A full stack web application that helps simplify the job recruiting process! The matching algorithm lets a recruiter know how qualified a candidate is based on the desired qualifications. It is implemented with the MERN stack. </p>
-									<img class="recruited-pic" src="./assets/update3.png" alt="">
-									<a href="https://recruited.herokuapp.com/" class="pic-view" target="_blank"><span class="view">View Project</span></a>
-								</section>
-								<section>
-								</section>
-							</div>
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner contact-inner">
-							<h2>Get in touch</h2>
-							<p>Thanks for checking out my personal portfolio.  Feel free to reach out to me with any questions regarding my projects. If  you have time, please check out my Github and LinkedIn profiles.</p>
-							<div class="split style1 contact-view">
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<a href="#">edwardcheng148@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(626) 823-1110</span>
-										</li>
-									</ul>
-								</section>
-								<section>
-									<h3>Social</h3>
-									<ul class="icons">
-										<li class="github-li"><a target="_blank" href="https://github.com/Edwardc148" class="fa-github-square fa-2x"></a>
-										<span class="label">GitHub</span></li>
-										<li class="linkedin-li"><a target="blank" href="https://www.linkedin.com/in/edward-cheng/" class="fa-linkedin-square fa-2x"></a>
-										<span class="label">LinkedIn</span>
-										</li>
-									</ul>
-									<ul class="icons">
-										<li class="resume-li">
-											<a target="_blank" href="https://drive.google.com/file/d/1mFggaBAsgOq3rBKl6hz7i5X8JrCATipt/view?usp=sharing"><i class="fas fa-address-card fa-2x"></i></a>
-											<span class="label">Resume</span>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
+		</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Edward Cheng. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP Hyperspace</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>&copy; Edward Cheng. All rights reserved.</li><li>Design: <a
+							href="http://html5up.net">HTML5 UP Hyperspace</a></li>
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<script type="text/javascript" src="./assets/js/hover.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script type="text/javascript" src="./assets/js/hover.js"></script>
 
 	</body>
 </html>
